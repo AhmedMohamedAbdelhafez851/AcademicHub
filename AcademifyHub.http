@@ -1,0 +1,6 @@
+@SmartAcademia_HostAddress = http://localhost:5058
+
+GET {{SmartAcademia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
