@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FF1LKW2P2PTuJNOJMzIpgh1+8sYuYv16SO9s7MDjDDnNCBKfzyac72aDiDY8B5fJOcqqqWR8UOoyGSv0gthZwA==",
+  "dgSpecHash": "qgzwcfxHYIQRBqyPKy1enu7l2eLRXDW6YVG5OEKPys7QlIkQ1KSrIH4FhlF2jKMfeG9K2UTCLXa67SZ2q756NQ==",
   "success": true,
-  "projectFilePath": "C:\\AcademifyHub\\AcademifyHub.csproj",
+  "projectFilePath": "C:\\My_Data\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\cm\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
