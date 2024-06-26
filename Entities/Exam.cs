@@ -3,7 +3,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AcademifyHub.Entities
 {
-   public class Exam
+   public class Exam           // Base Class 
     {
         public int Id { get; set; }
         public string Title { get; set; }

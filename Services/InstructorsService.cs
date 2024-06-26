@@ -26,32 +26,7 @@ namespace AcademifyHub.Services
 
         public Instructor Delete(Instructor instructor)
         {
-          //  try
-        //    {
-        //        var instructorToDelete = await _context.Instructors
-        //            .Include(i => i.Office)
-        //            .Include(i => i.Sections)
-        //            .FirstOrDefaultAsync(i => i.Id == instructorId);
-
-        //        if (instructorToDelete == null)
-        //        {
-        //            return false; // Instructor not found
-        //        }
-
-        //        _context.Instructors.Remove(instructorToDelete);
-
-        //        await _context.SaveChangesAsync();
-
-        //        return true;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // Handle exception
-        //        Console.WriteLine(ex.Message);
-        //        return false;
-        //    }
-        //}
-
+         
         _context.Instructors.Remove(instructor);
             _context.SaveChanges();
 

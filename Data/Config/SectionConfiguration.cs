@@ -9,7 +9,7 @@ namespace AcademifyHub.Data.Config
         public void Configure(EntityTypeBuilder<Section> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id).ValueGeneratedOnAdd();
+          //  builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
             // builder.Property(x => x.CourseName).HasMaxLength(255); // nvarchar(255)
 

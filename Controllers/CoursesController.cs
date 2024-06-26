@@ -13,7 +13,7 @@ namespace AcademifyHub.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+    //[AllowAnonymous]
     public class CoursesController : ControllerBase
     {
         private readonly ICoursesService _courseService;

@@ -30,7 +30,6 @@ namespace AcademifyHub.Controllers
         }
 
         [HttpPost]
-       // [AllowAnonymous]
         public async Task<IActionResult> Create([FromForm] Office office)
         {
 

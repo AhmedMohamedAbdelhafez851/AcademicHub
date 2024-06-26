@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AcademifyHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f541769799e74afcb099b77f068a0504bc455ba9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b4ea797850ee04b1520d6c59616cc78a667b2a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcademifyHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcademifyHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

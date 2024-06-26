@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\My_Data\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj": {}
+    "C:\\My_Dataaaaaaa\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj": {}
   },
   "projects": {
-    "C:\\My_Data\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj": {
+    "C:\\My_Dataaaaaaa\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\My_Data\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj",
+        "projectUniqueName": "C:\\My_Dataaaaaaa\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj",
         "projectName": "AcademifyHub",
-        "projectPath": "C:\\My_Data\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj",
+        "projectPath": "C:\\My_Dataaaaaaa\\ProjectsRepo\\AcademifyHub\\AcademifyHub.csproj",
         "packagesPath": "C:\\Users\\cm\\.nuget\\packages\\",
-        "outputPath": "C:\\My_Data\\ProjectsRepo\\AcademifyHub\\obj\\",
+        "outputPath": "C:\\My_Dataaaaaaa\\ProjectsRepo\\AcademifyHub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -8,7 +8,6 @@ namespace AcademifyHub.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class InstructorsController : ControllerBase
     {
         private readonly IInstructorsService _instructorService;

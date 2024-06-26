@@ -36,17 +36,14 @@ namespace AcademifyHub.Services
 
         public async Task<IEnumerable<Section>> GetAll(int sectionId = 0)
         {
-            //    return await _context.Sections
-            //        .Where(m => m.Id == SectionId || SectionId == 0)
-            //        .Include(s => s.Sections).Include(r => r.Reviews).ToListAsync(); 
-            //}
+          
 
             return await _context.Sections
                            .Where(s => s.Id == sectionId || sectionId == 0)
                            .Include(c => c.Course)
                            .Include(i=>i.Instructor)
-                           .Include(s=>s.Schedule)
-                           .ToListAsync();
+                           .Include(s=>s.Schedule)                    
+                           .ToListAsync();                            
         }
 
       

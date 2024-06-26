@@ -34,11 +34,7 @@ namespace AcademifyHub.Services
 
         public async Task<IEnumerable<Course>> GetAll(int courseId = 0)
         {
-            //    return await _context.Courses
-            //        .Where(m => m.Id == courseId || courseId == 0)
-            //        .Include(s => s.Sections).Include(r => r.Reviews).ToListAsync(); 
-            //}
-
+          
             return await _context.Courses.ToListAsync(); 
         }
 

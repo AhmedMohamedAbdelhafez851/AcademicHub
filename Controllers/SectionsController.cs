@@ -9,7 +9,7 @@ namespace AcademifyHub.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class SectionsController : ControllerBase
     {
         private readonly ISectionsService _SectionService;
@@ -19,7 +19,7 @@ namespace AcademifyHub.Controllers
         }
 
         [HttpGet("{id}")]
-        [AllowAnonymous]
+         
         public async Task<IActionResult> GetByIdAsync(int id)
         {
             var Section = await _SectionService.GetById(id);
@@ -32,7 +32,7 @@ namespace AcademifyHub.Controllers
         }
 
         [HttpPost]
-        [AllowAnonymous]
+       
 
         public async Task<IActionResult> Create([FromForm]Section section)
         {
@@ -42,7 +42,6 @@ namespace AcademifyHub.Controllers
             return Ok(section);
         }
         [HttpGet]
-        [AllowAnonymous]
 
         public async Task<IActionResult> GetAllSections()
         { 
@@ -50,7 +49,6 @@ namespace AcademifyHub.Controllers
             return Ok(data);
         }
         [HttpPut("{id}")]
-        [AllowAnonymous]
 
         public async Task<IActionResult> UpdateAsync(int id, [FromForm] Section dto)
         {
@@ -82,7 +80,6 @@ namespace AcademifyHub.Controllers
 
         }
         [HttpDelete("{id}")]
-        [AllowAnonymous]
         public async Task<IActionResult> DeleteAsync(int id)
         {
             var section = await _SectionService.GetById(id);
